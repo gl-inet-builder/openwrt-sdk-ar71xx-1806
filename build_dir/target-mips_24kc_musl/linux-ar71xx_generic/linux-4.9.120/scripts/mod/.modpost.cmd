@@ -1,0 +1,1 @@
+cmd_scripts/mod/modpost := gcc  -o scripts/mod/modpost scripts/mod/modpost.o scripts/mod/file2alias.o scripts/mod/sumversion.o -L/home/lancer/workspace/gl-image/openwrt-18.06.git/staging_dir/host/lib 

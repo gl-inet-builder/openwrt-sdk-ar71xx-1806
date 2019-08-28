@@ -1,0 +1,11 @@
+#openssl pkg-config source file
+
+prefix=/home/lancer/workspace/gl-image/openwrt-18.06.git/staging_dir/host
+exec_prefix=/home/lancer/workspace/gl-image/openwrt-18.06.git/staging_dir/host
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: LibreSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 2.7.2
+Requires: libssl libcrypto
