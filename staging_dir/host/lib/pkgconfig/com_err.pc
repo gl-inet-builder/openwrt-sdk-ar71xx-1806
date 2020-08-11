@@ -1,0 +1,12 @@
+prefix=/home/lancer/workspace/gl-image/openwrt-18.06.git/staging_dir/host
+exec_prefix=/home/lancer/workspace/gl-image/openwrt-18.06.git/staging_dir/host
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: com_err
+Description: Common error description library
+Version: 1.45.3
+Requires:
+Cflags: -I${includedir}/et -I${includedir}
+Libs: -L${libdir} -lcom_err
+Libs.private: -lpthread

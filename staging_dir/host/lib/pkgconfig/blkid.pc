@@ -1,0 +1,11 @@
+prefix=/home/lancer/workspace/gl-image/openwrt-18.06.git/staging_dir/host
+exec_prefix=/home/lancer/workspace/gl-image/openwrt-18.06.git/staging_dir/host
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: blkid
+Description: Block device id library
+Version: 1.45.3
+Requires.private: uuid
+Cflags: -I${includedir}/blkid -I${includedir}
+Libs: -L${libdir} -lblkid

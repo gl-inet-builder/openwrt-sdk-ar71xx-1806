@@ -19,8 +19,8 @@ import gdb
 import os
 import os.path
 
-pythondir = '/home/lancer/workspace/openwrt/staging_dir/toolchain-mips_24kc_gcc-7.3.0_musl/share/gcc-7.3.0/python'
-libdir = '/home/lancer/workspace/openwrt/staging_dir/toolchain-mips_24kc_gcc-7.3.0_musl/mips-openwrt-linux-musl/lib'
+pythondir = '/home/lancer/workspace/gl-image/openwrt-18.06.git/staging_dir/toolchain-mips_24kc_gcc-7.3.0_musl/share/gcc-7.3.0/python'
+libdir = '/home/lancer/workspace/gl-image/openwrt-18.06.git/staging_dir/toolchain-mips_24kc_gcc-7.3.0_musl/mips-openwrt-linux-musl/lib'
 
 # This file might be loaded when there is no current objfile.  This
 # can happen if the user loads it manually.  In this case we don't

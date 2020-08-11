@@ -5,7 +5,7 @@
 ;;; This file should be parsed by the same gengtype which wrote it.
 
 (!version  "7.3.0")
-(!srcdir  "/home/lancer/workspace/openwrt/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc")
+(!srcdir  "/home/lancer/workspace/gl-image/openwrt-18.06.git/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc")
 (!languages 10 ada brig c cp fortran go jit lto objc objcp)
 (!fileslist 200
  (!srcfile 1023  "../libcpp/include/line-map.h")
@@ -458,11 +458,11 @@
                    (!srcfileloc  "tree-core.h" 916)
                    nil )
                   (!pair  "u"
-                   (!type union 25 nil  gc_unused "anonymous:/home/lancer/workspace/openwrt/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/tree-core.h:918"
+                   (!type union 25 nil  gc_unused "anonymous:/home/lancer/workspace/gl-image/openwrt-18.06.git/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/tree-core.h:918"
                     (!srcfileloc  "tree-core.h" 985)
                     (!fields 6 
                      (!pair  "bits"
-                      (!type struct 26 nil  gc_unused "anonymous:/home/lancer/workspace/openwrt/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/tree-core.h:921"
+                      (!type struct 26 nil  gc_unused "anonymous:/home/lancer/workspace/gl-image/openwrt-18.06.git/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/tree-core.h:921"
                        (!srcfileloc  "tree-core.h" 944)
                        (!fields 16 
                         (!pair  "lang_flag_0"
@@ -534,7 +534,7 @@
                       (!srcfileloc  "tree-core.h" 944)
                       nil )
                      (!pair  "int_length"
-                      (!type struct 27 nil  gc_unused "anonymous:/home/lancer/workspace/openwrt/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/tree-core.h:951"
+                      (!type struct 27 nil  gc_unused "anonymous:/home/lancer/workspace/gl-image/openwrt-18.06.git/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/tree-core.h:951"
                        (!srcfileloc  "tree-core.h" 965)
                        (!fields 3 
                         (!pair  "unextended"
@@ -566,7 +566,7 @@
                       (!srcfileloc  "tree-core.h" 974)
                       nil )
                      (!pair  "dependence_info"
-                      (!type struct 28 nil  gc_unused "anonymous:/home/lancer/workspace/openwrt/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/tree-core.h:981"
+                      (!type struct 28 nil  gc_unused "anonymous:/home/lancer/workspace/gl-image/openwrt-18.06.git/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/tree-core.h:981"
                        (!srcfileloc  "tree-core.h" 984)
                        (!fields 2 
                         (!pair  "clique"
@@ -2319,7 +2319,7 @@
                        (!srcfileloc  "rtl.h" 395)
                        nil )
                       (!pair  "u2"
-                       (!type union 131 nil  gc_unused "anonymous:/home/lancer/workspace/openwrt/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/rtl.h:397"
+                       (!type union 131 nil  gc_unused "anonymous:/home/lancer/workspace/gl-image/openwrt-18.06.git/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/rtl.h:397"
                         (!srcfileloc  "rtl.h" 418)
                         (!fields 5 
                          (!pair  "original_regno"
@@ -6432,7 +6432,7 @@
                                     )
                                    )
                                    (!pair  "x"
-                                    (!type struct 317 nil  gc_used "anonymous:/home/lancer/workspace/openwrt/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/basic-block.h:140"
+                                    (!type struct 317 nil  gc_used "anonymous:/home/lancer/workspace/gl-image/openwrt-18.06.git/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/basic-block.h:140"
                                      (!srcfileloc  "basic-block.h" 143)
                                      (!fields 2 
                                       (!pair  "head_"
@@ -8873,7 +8873,7 @@
                                    (!srcfileloc  "dwarf2out.h" 57)
                                    nil )
                                   (!pair  "dw_cfi_oprnd1"
-                                   (!type union 444 nil  gc_used "anonymous:/home/lancer/workspace/openwrt/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/dwarf2out.h:49"
+                                   (!type union 444 nil  gc_used "anonymous:/home/lancer/workspace/gl-image/openwrt-18.06.git/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/dwarf2out.h:49"
                                     (!srcfileloc  "dwarf2out.h" 54)
                                     (!fields 4 
                                      (!pair  "dw_cfi_reg_num"
@@ -9474,7 +9474,7 @@
                                                    (!srcfileloc  "dwarf2out.h" 181)
                                                    nil )
                                                   (!pair  "v"
-                                                   (!type union 477 nil  gc_used "anonymous:/home/lancer/workspace/openwrt/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/dwarf2out.h:183"
+                                                   (!type union 477 nil  gc_used "anonymous:/home/lancer/workspace/gl-image/openwrt-18.06.git/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/dwarf2out.h:183"
                                                     (!srcfileloc  "dwarf2out.h" 186)
                                                     (!fields 2 
                                                      (!pair  "sval"
@@ -10937,7 +10937,7 @@
                       )
                      )
                      (!pair  "loc"
-                      (!type union 529 nil  gc_unused "anonymous:/home/lancer/workspace/openwrt/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/tree-core.h:1397"
+                      (!type union 529 nil  gc_unused "anonymous:/home/lancer/workspace/gl-image/openwrt-18.06.git/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/tree-core.h:1397"
                        (!srcfileloc  "tree-core.h" 1397)
                        (!fields 2 
                         (!pair  "stmt"
@@ -12671,7 +12671,7 @@
                             (!srcfileloc  "c/c-decl.c" 198)
                             (!fields 11 
                              (!pair  "u"
-                              (!type union 604 nil  gc_used "anonymous:/home/lancer/workspace/openwrt/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/c/c-decl.c:184"
+                              (!type union 604 nil  gc_used "anonymous:/home/lancer/workspace/gl-image/openwrt-18.06.git/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/c/c-decl.c:184"
                                (!srcfileloc  "c/c-decl.c" 187)
                                (!fields 2 
                                 (!pair  "type"
@@ -13960,7 +13960,7 @@
   )
   nil 1023 nil nil )
  
- (!type struct 658 nil  gc_unused "anonymous:/home/lancer/workspace/openwrt/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/../libcpp/include/line-map.h:1242"nil 
+ (!type struct 658 nil  gc_unused "anonymous:/home/lancer/workspace/gl-image/openwrt-18.06.git/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/../libcpp/include/line-map.h:1242"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -14046,11 +14046,11 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 675 nil  gc_unused "anonymous:/home/lancer/workspace/openwrt/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/../libcpp/include/cpplib.h:1116"nil 
+ (!type struct 675 nil  gc_unused "anonymous:/home/lancer/workspace/gl-image/openwrt-18.06.git/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/../libcpp/include/cpplib.h:1116"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 676 nil  gc_unused "anonymous:/home/lancer/workspace/openwrt/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/../libcpp/include/cpplib.h:1127"nil 
+ (!type struct 676 nil  gc_unused "anonymous:/home/lancer/workspace/gl-image/openwrt-18.06.git/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/../libcpp/include/cpplib.h:1127"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -14431,7 +14431,7 @@
     (!srcfileloc  "gimple.h" 359)
     nil )
    (!pair  "u"
-    (!type union 720 nil  gc_used "anonymous:/home/lancer/workspace/openwrt/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/gimple.h:362"
+    (!type union 720 nil  gc_used "anonymous:/home/lancer/workspace/gl-image/openwrt-18.06.git/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/gimple.h:362"
      (!srcfileloc  "gimple.h" 365)
      (!fields 2 
       (!pair  "fntype"
@@ -20633,7 +20633,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type union 1263 nil  gc_unused "anonymous:/home/lancer/workspace/openwrt/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/mcf.c:343"nil 
+ (!type union 1263 nil  gc_unused "anonymous:/home/lancer/workspace/gl-image/openwrt-18.06.git/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/mcf.c:343"nil 
   (!fields 0 )
   nil 0 nil )
  
@@ -21025,7 +21025,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type union 1319 nil  gc_unused "anonymous:/home/lancer/workspace/openwrt/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/tree-eh.c:50"nil 
+ (!type union 1319 nil  gc_unused "anonymous:/home/lancer/workspace/gl-image/openwrt-18.06.git/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/tree-eh.c:50"nil 
   (!fields 0 )
   nil 0 nil )
  
@@ -22386,7 +22386,7 @@
   )
  )
  
- (!type struct 1553 nil  gc_unused "anonymous:/home/lancer/workspace/openwrt/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/ada/gcc-interface/decl.c:247"nil 
+ (!type struct 1553 nil  gc_unused "anonymous:/home/lancer/workspace/gl-image/openwrt-18.06.git/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/ada/gcc-interface/decl.c:247"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -23134,7 +23134,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1631 nil  gc_unused "anonymous:/home/lancer/workspace/openwrt/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/c/c-parser.c:6645"nil 
+ (!type struct 1631 nil  gc_unused "anonymous:/home/lancer/workspace/gl-image/openwrt-18.06.git/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/c/c-parser.c:6645"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -24958,7 +24958,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1797 nil  gc_unused "anonymous:/home/lancer/workspace/openwrt/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/fortran/trans.h:33"nil 
+ (!type struct 1797 nil  gc_unused "anonymous:/home/lancer/workspace/gl-image/openwrt-18.06.git/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/fortran/trans.h:33"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -24982,11 +24982,11 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1803 nil  gc_unused "anonymous:/home/lancer/workspace/openwrt/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/fortran/trans.h:389"nil 
+ (!type struct 1803 nil  gc_unused "anonymous:/home/lancer/workspace/gl-image/openwrt-18.06.git/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/fortran/trans.h:389"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1804 nil  gc_unused "anonymous:/home/lancer/workspace/openwrt/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/fortran/trans.h:401"nil 
+ (!type struct 1804 nil  gc_unused "anonymous:/home/lancer/workspace/gl-image/openwrt-18.06.git/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/fortran/trans.h:401"nil 
   (!fields 0 )
   nil 0 nil nil )
  

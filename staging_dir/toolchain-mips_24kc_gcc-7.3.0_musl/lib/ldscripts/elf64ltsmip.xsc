@@ -7,7 +7,7 @@ OUTPUT_FORMAT("elf64-tradlittlemips", "elf64-tradbigmips",
 	      "elf64-tradlittlemips")
 OUTPUT_ARCH(mips)
 ENTRY(__start)
-SEARCH_DIR("=/home/lancer/workspace/openwrt/staging_dir/toolchain-mips_24kc_gcc-7.3.0_musl/mips-openwrt-linux-musl/lib64"); SEARCH_DIR("=/usr/local/lib64"); SEARCH_DIR("=/lib64"); SEARCH_DIR("=/usr/lib64"); SEARCH_DIR("=/home/lancer/workspace/openwrt/staging_dir/toolchain-mips_24kc_gcc-7.3.0_musl/mips-openwrt-linux-musl/lib"); SEARCH_DIR("=/usr/local/lib"); SEARCH_DIR("=/lib"); SEARCH_DIR("=/usr/lib");
+SEARCH_DIR("=/home/lancer/workspace/gl-image/openwrt-18.06.git/staging_dir/toolchain-mips_24kc_gcc-7.3.0_musl/mips-openwrt-linux-musl/lib64"); SEARCH_DIR("=/usr/local/lib64"); SEARCH_DIR("=/lib64"); SEARCH_DIR("=/usr/lib64"); SEARCH_DIR("=/home/lancer/workspace/gl-image/openwrt-18.06.git/staging_dir/toolchain-mips_24kc_gcc-7.3.0_musl/mips-openwrt-linux-musl/lib"); SEARCH_DIR("=/usr/local/lib"); SEARCH_DIR("=/lib"); SEARCH_DIR("=/usr/lib");
 SECTIONS
 {
   /* Read-only sections, merged into text segment: */

@@ -13,12 +13,11 @@
  # -I ./include -I ./arch/mips/include/uapi -I ./include/uapi
  # -I ./include/generated/uapi -I ./arch/mips/include/asm/mach-ath79
  # -I ./arch/mips/include/asm/mach-generic
- # -iprefix /home/lancer/workspace/gl-image/openwrt-18.06.git/staging_dir/toolchain-mips_24kc_gcc-7.3.0_musl/bin/../lib/gcc/mips-openwrt-linux-musl/7.3.0/
  # -idirafter /home/lancer/workspace/gl-image/openwrt-18.06.git/staging_dir/target-mips_24kc_musl/usr/include
  # -D __KERNEL__ -D VMLINUX_LOAD_ADDRESS=0xffffffff80060000 -D DATAOFFSET=0
  # -D GAS_HAS_SET_HARDFLOAT -D TOOLCHAIN_SUPPORTS_VIRT -D CC_HAVE_ASM_GOTO
  # -D KBUILD_BASENAME="asm_offsets" -D KBUILD_MODNAME="asm_offsets"
- # -isystem /home/lancer/workspace/gl-image/openwrt-18.06.git/staging_dir/toolchain-mips_24kc_gcc-7.3.0_musl/bin/../lib/gcc/mips-openwrt-linux-musl/7.3.0/include
+ # -isystem /home/lancer/workspace/gl-image/openwrt-18.06.git/staging_dir/toolchain-mips_24kc_gcc-7.3.0_musl/lib/gcc/mips-openwrt-linux-musl/7.3.0/include
  # -include ./include/linux/kconfig.h -MD arch/mips/kernel/.asm-offsets.s.d
  # arch/mips/kernel/asm-offsets.c -G 0 -meb -mno-check-zero-division
  # -mabi=32 -mno-abicalls -mno-branch-likely -msoft-float -march=mips32r2

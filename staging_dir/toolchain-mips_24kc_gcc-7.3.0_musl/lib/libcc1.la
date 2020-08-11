@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/lancer/workspace/openwrt/staging_dir/toolchain-mips_24kc_gcc-7.3.0_musl/lib/../lib'
+libdir='/home/lancer/workspace/gl-image/openwrt-18.06.git/staging_dir/toolchain-mips_24kc_gcc-7.3.0_musl/lib/../lib'

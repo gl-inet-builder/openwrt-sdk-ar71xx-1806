@@ -1,0 +1,12 @@
+prefix=/home/lancer/workspace/gl-image/openwrt-18.06.git/staging_dir/host
+exec_prefix=/home/lancer/workspace/gl-image/openwrt-18.06.git/staging_dir/host
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: ss
+Description: Subsystem command parsing library
+Version: 1.45.3
+Requires.private: com_err
+Cflags: -I${includedir}/ss -I${includedir}
+Libs: -L${libdir} -lss
+Libs.private: -ldl

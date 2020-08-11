@@ -1,5 +1,5 @@
 /* Generated automatically by the program 'build/genpreds'
-   from the machine description file '/home/lancer/workspace/openwrt/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/config/mips/mips.md'.  */
+   from the machine description file '/home/lancer/workspace/gl-image/openwrt-18.06.git/build_dir/toolchain-mips_24kc_gcc-7.3.0_musl/gcc-7.3.0/gcc/config/mips/mips.md'.  */
 
 #ifndef GCC_TM_PREDS_H
 #define GCC_TM_PREDS_H
